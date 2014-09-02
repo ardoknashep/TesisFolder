@@ -1,0 +1,22 @@
+C:\TempNet\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.dll
+C:\TempNet\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.pdb
+C:\TempNet\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.dll
+C:\TempNet\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.DAO.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Model.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.DAO.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Model.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Negocio.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.DAO.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Model.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.DAO.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\bin\Debug\HermesNet.Model.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.csprojResolveAssemblyReference.cache
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Negocio\obj\Debug\HermesNet.Negocio.pdb

@@ -1,0 +1,27 @@
+C:\TempNet\HermesNetTesis\HermesNet\bin\HermesNet.dll
+C:\TempNet\HermesNetTesis\HermesNet\bin\HermesNet.pdb
+C:\TempNet\HermesNetTesis\HermesNet\obj\Debug\HermesNet.dll
+C:\TempNet\HermesNetTesis\HermesNet\obj\Debug\HermesNet.pdb
+C:\TempNet\HermesNetTesis\HermesNet\obj\Debug\HermesNet.csprojResolveAssemblyReference.cache
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\obj\Debug\HermesNet.csprojResolveAssemblyReference.cache
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.Model.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.Negocio.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.DAO.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.Model.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.Negocio.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\bin\HermesNet.DAO.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\obj\Debug\HermesNet.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet\obj\Debug\HermesNet.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.Model.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.Negocio.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.DAO.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.Model.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.Negocio.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\bin\HermesNet.DAO.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\obj\Debug\HermesNet.csprojResolveAssemblyReference.cache
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\obj\Debug\HermesNet.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet\obj\Debug\HermesNet.pdb

@@ -1,0 +1,12 @@
+C:\TempNet\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.dll
+C:\TempNet\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.pdb
+C:\TempNet\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.dll
+C:\TempNet\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Model\bin\Debug\HermesNet.Model.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.Model\obj\Debug\HermesNet.Model.pdb

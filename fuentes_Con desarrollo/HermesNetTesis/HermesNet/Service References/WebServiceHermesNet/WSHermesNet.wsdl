@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="buscarLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscarLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscarLoginResult" type="tns:RespuestaLoginVO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaLoginVO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Rut" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Dv" type="s1:char" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cargo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Rol" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WSHeader" type="tns:WSHeader" />
+      <s:complexType name="WSHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Credenciales" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="IngresarLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rutUsuario" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dv" type="s1:char" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombreUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="apellidoPaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="apellidoMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_cargo" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="rol" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IngresarLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IngresarLoginResult" type="tns:RespuestaIngresoUsuarioVO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaIngresoUsuarioVO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ActualizarPasswd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rut" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActualizarPasswdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ActualizarPasswdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="rut" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarUsuarioResult" type="tns:RespuestaGenericaWSVO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaGenericaWSVO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="char">
+        <s:restriction base="s:unsignedShort" />
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="buscarLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:buscarLogin" />
+  </wsdl:message>
+  <wsdl:message name="buscarLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:buscarLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscarLoginWSHeader">
+    <wsdl:part name="WSHeader" element="tns:WSHeader" />
+  </wsdl:message>
+  <wsdl:message name="IngresarLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:IngresarLogin" />
+  </wsdl:message>
+  <wsdl:message name="IngresarLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:IngresarLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IngresarLoginWSHeader">
+    <wsdl:part name="WSHeader" element="tns:WSHeader" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarPasswdSoapIn">
+    <wsdl:part name="parameters" element="tns:ActualizarPasswd" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarPasswdSoapOut">
+    <wsdl:part name="parameters" element="tns:ActualizarPasswdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarPasswdWSHeader">
+    <wsdl:part name="WSHeader" element="tns:WSHeader" />
+  </wsdl:message>
+  <wsdl:message name="EliminarUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="EliminarUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarUsuarioWSHeader">
+    <wsdl:part name="WSHeader" element="tns:WSHeader" />
+  </wsdl:message>
+  <wsdl:portType name="WSHermesNetSoap">
+    <wsdl:operation name="buscarLogin">
+      <wsdl:input message="tns:buscarLoginSoapIn" />
+      <wsdl:output message="tns:buscarLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarLogin">
+      <wsdl:input message="tns:IngresarLoginSoapIn" />
+      <wsdl:output message="tns:IngresarLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarPasswd">
+      <wsdl:input message="tns:ActualizarPasswdSoapIn" />
+      <wsdl:output message="tns:ActualizarPasswdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <wsdl:input message="tns:EliminarUsuarioSoapIn" />
+      <wsdl:output message="tns:EliminarUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHermesNetSoap" type="tns:WSHermesNetSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="buscarLogin">
+      <soap:operation soapAction="http://tempuri.org/buscarLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:buscarLoginWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarLogin">
+      <soap:operation soapAction="http://tempuri.org/IngresarLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:IngresarLoginWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarPasswd">
+      <soap:operation soapAction="http://tempuri.org/ActualizarPasswd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ActualizarPasswdWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <soap:operation soapAction="http://tempuri.org/EliminarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:EliminarUsuarioWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSHermesNetSoap12" type="tns:WSHermesNetSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="buscarLogin">
+      <soap12:operation soapAction="http://tempuri.org/buscarLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:buscarLoginWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarLogin">
+      <soap12:operation soapAction="http://tempuri.org/IngresarLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:IngresarLoginWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarPasswd">
+      <soap12:operation soapAction="http://tempuri.org/ActualizarPasswd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ActualizarPasswdWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <soap12:operation soapAction="http://tempuri.org/EliminarUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:EliminarUsuarioWSHeader" part="WSHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSHermesNet">
+    <wsdl:port name="WSHermesNetSoap" binding="tns:WSHermesNetSoap">
+      <soap:address location="http://localhost:53714/WSHermesNet.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSHermesNetSoap12" binding="tns:WSHermesNetSoap12">
+      <soap12:address location="http://localhost:53714/WSHermesNet.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

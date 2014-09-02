@@ -1,0 +1,18 @@
+C:\TempNet\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.dll
+C:\TempNet\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.pdb
+C:\TempNet\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.dll
+C:\TempNet\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.Model.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.Model.pdb
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.csprojResolveAssemblyReference.cache
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.dll
+C:\Users\Gera\Desktop\fuentes\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.DAO.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.Model.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\bin\Debug\HermesNet.Model.pdb
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.csprojResolveAssemblyReference.cache
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.dll
+F:\Duoc\Proyecto de Titulo\fuentes_Con desarrollo\HermesNetTesis\HermesNet.DAO\obj\Debug\HermesNet.DAO.pdb
