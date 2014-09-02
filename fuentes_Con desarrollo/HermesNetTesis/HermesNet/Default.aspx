@@ -6,4 +6,5 @@
 <p> Este es el sistema de control y gestión HermesNet de <b>Benefits Corredores de Seguros</b>.</p>
 <p> En el sector izquierdo de la pantalla encontraras el menú que ayudará a que puedas registrar los procesos que requieras, te invitamos a explorar 
     las opciones que están a tu disposición.</p>
+	<!--nn-->
 </asp:Content>
